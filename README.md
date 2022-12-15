@@ -29,7 +29,10 @@ OID_UpsAlarmsPresent = MIB_UPS_ALARMS + '.1.0'\
 OID_UpsAlarmsTable = MIB_UPS_ALARMS + '.2'\`
 
 ### Perl
-#### Modification of `check_apc.pl` from [Nagios Exchange](https://exchange.nagios.org/directory/Plugins/Hardware/UPS/APC/check_apc-2Epl/details)
+#### Modification of `check_apc.pl` from [Nagios Exchange](https://exchange.nagios.org/directory/Plugins/Hardware/UPS/Powerware/check_xups_alarm/details)
+* Removed Nagios plugin `Nagios::Plugin`
+
+
 1.) Step\
 `Define OID_UpsAlarmsPresent and OID_UpsAlarmsTable variable\`
 my $OID_UpsAlarmsPresent =   MIB_UPS_ALARMS . '.1.0';\
