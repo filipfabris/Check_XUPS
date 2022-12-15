@@ -24,7 +24,7 @@ class CheckXUPS:
                     manufacturer details
 
             Example:
-            ./script_name -H 10.223.110.42 -C V3r505nmP! -w 1..4,11 -c 5..10
+            ./check_xups_alarms.py -H 10.xxx.xxxx.xx -C pass -w 1..4,11 -c 5..10
             """
     OKAY = 0
     WARNING = 1

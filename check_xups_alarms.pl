@@ -10,7 +10,7 @@ use constant MIB_UPS_ALARMS => '1.3.6.1.4.1.534.1.7';
 use constant EXAMPLE => "\n\n".
     "Example:\n".
     "\n".
-    "check_UPS_alarms -H 192.168.0.1 -w 1..4,11 -c 5..10 -E1\n".
+    "./check_xups_alarms.pl -H 192.168.0.1 -w 1..4,11 -c 5..10 -C pass\n".
     "\n".
     "It checks host  192.168.0.1 (UPS-MIB SNMP compliant device) looking for any active alarm\n".
     "present in both warning and critical lists.\n".
